@@ -1,0 +1,35 @@
+body {
+background-color: #FFFFFF;
+color: #333333;
+font-family: Arial, sans-serif;
+text-align:center;
+padding:50px;
+}
+h1 {
+    font-size: 35px;
+    margin-bottom: 20px;
+      
+}
+
+p {
+   font-size: 1.2em;
+   margin-bottom: 20px;
+
+}
+
+button {
+     background-color: rgba(0, 140, 255, 0.932);
+     color: white;
+     border:  none;
+     padding: 10px 20px;
+     border-radius: 5px;
+     cursor: pointer; 
+    
+}
+img{
+    height: 90px;
+    position: absolute; 
+	left: 40px;
+	top: 20px;
+    
+}
