@@ -1,16 +1,23 @@
 body {
-background-color: #FFFFFF;
+background-color: #ffffff;
 color: #333333;
 font-family: Arial, sans-serif;
 text-align:center;
 }
+
+.conteudo {
+    
+    border-top: 1px solid rgba(0, 0, 0, 0.247);
+}
+
+
+
 
 img{
     height: 90px;
     position: absolute; 
 	left: 40px;
 	top: 0px;
-
 }
 
 *{
@@ -25,7 +32,6 @@ h1 {
     margin-bottom: 20px;
     margin-top: 10;
     height: 31px;
-   
 }
 
 p {
@@ -35,12 +41,15 @@ p {
 }
 
 button {
-    background-color: transparent;
-    background-repeat: no-repeat;
-    border: none;
-    cursor: pointer;
-    overflow: hidden;
-    outline: none;
-    padding: 5px;
-}
+      background-color:transparent;
+        width: 180px;
+        height:40px;
+        border: none;
+        border-radius: 10px;
+        font-family: Arial, sans-serif;      
+        color: #2F2325;
 
+}
+button:hover {
+    background-color: rgba(228, 226, 226, 0.514);
+  }
